@@ -34,11 +34,11 @@ data on the join table).
 3. Set the Flask app environment variable:
    ```bash
    export FLASK_APP=server.app
-   ```
+   
 4. Run the database migrations:
    ```bash
    flask db upgrade
-   ```
+   
 5. Seed the database with example data:
    ```bash
    python3 -m server.seed
