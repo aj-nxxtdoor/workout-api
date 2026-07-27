@@ -25,7 +25,7 @@ data on the join table).
    ```bash
    git clone <your-repo-url>
    cd workout-api
-   ```
+   
 2. Install dependencies with Pipenv:
    ```bash
    pipenv install
