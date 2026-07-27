@@ -120,6 +120,11 @@ sets → optional
 reps → optional
 duration_seconds → optional
 
+You need either:
+
+sets + reps, or
+duration_seconds
+
 ## Validations
 
 - **Table constraints:** non-blank workout name, unique exercise name,
