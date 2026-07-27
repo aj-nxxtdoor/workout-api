@@ -78,6 +78,10 @@ name
 date → YYYY-MM-DD
 notes → optional
 
+DELETE /workouts/<id>
+Delete a workout using its ID.
+Also remove the links between that workout and its exercises.
+
 ### Exercises
 
 | Method | Route | Description |
