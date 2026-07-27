@@ -88,6 +88,10 @@ GET /exercises
 
 Get a list of all exercises.
 
+GET /exercises/<id>
+
+Get one exercise using its ID.
+
 ### Adding an Exercise to a Workout
 
 | Method | Route | Description |
