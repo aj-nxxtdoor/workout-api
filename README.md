@@ -70,6 +70,14 @@ GET /workouts/<id>
 Get one specific workout using its ID.
 Also show the exercises linked to it.
 
+POST /workouts
+
+Used to create a new workout.
+Needs:
+name
+date → YYYY-MM-DD
+notes → optional
+
 ### Exercises
 
 | Method | Route | Description |
