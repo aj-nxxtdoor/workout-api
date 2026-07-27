@@ -61,13 +61,11 @@ python3 -m pytest tests/
 ## Endpoints
 
 ### Workouts
+GET /workouts
 
-| Method | Route | Description |
-|---|---|---|
-| GET | `/workouts` | List all workouts, including their linked exercises. |
-| GET | `/workouts/<id>` | View a single workout, including its linked exercises. |
-| POST | `/workouts` | Create a workout. Body: `{ "name": str, "date": "YYYY-MM-DD", "notes": str (optional) }` |
-| DELETE | `/workouts/<id>` | Delete a workout (and its workout-exercise links). |
+Get all workouts.
+Show the exercises connected to each workout.
+
 
 ### Exercises
 
