@@ -65,7 +65,10 @@ GET /workouts
 
 Get all workouts.
 Show the exercises connected to each workout.
+GET /workouts/<id>
 
+Get one specific workout using its ID.
+Also show the exercises linked to it.
 
 ### Exercises
 
