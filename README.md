@@ -30,7 +30,7 @@ data on the join table).
    ```bash
    pipenv install
    pipenv shell
-   ```
+   
 3. Set the Flask app environment variable:
    ```bash
    export FLASK_APP=server.app
