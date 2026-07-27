@@ -84,12 +84,9 @@ Also remove the links between that workout and its exercises.
 
 ### Exercises
 
-| Method | Route | Description |
-|---|---|---|
-| GET | `/exercises` | List all exercises. |
-| GET | `/exercises/<id>` | View a single exercise. |
-| POST | `/exercises` | Create an exercise. Body: `{ "name": str, "category": "cardio"\|"strength"\|"flexibility"\|"balance", "equipment_needed": bool (optional) }` |
-| DELETE | `/exercises/<id>` | Delete an exercise (and any workout links using it). |
+GET /exercises
+
+Get a list of all exercises.
 
 ### Adding an Exercise to a Workout
 
