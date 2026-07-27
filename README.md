@@ -9,7 +9,7 @@ to a Workout with per-workout details (sets/reps, or a duration).
 
 **Entities**
 
-- **Workout** — a training session (`name`, `date`, optional `notes`).
+- Workout — a training session (`name`, `date`, optional `notes`).
 - **Exercise** — a reusable movement (`name`, `category`, `equipment_needed`).
 - **WorkoutExercise** — the join between a Workout and an Exercise, holding
   the `sets`, `reps`, and/or `duration_seconds` for that exercise within
