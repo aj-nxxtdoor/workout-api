@@ -102,7 +102,9 @@ cardio
 strength
 flexibility
 balance
-
+ 
+ equipment_needed → optional, true or false
+ 
 ### Adding an Exercise to a Workout
 
 | Method | Route | Description |
