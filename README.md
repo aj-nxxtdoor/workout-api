@@ -104,7 +104,11 @@ flexibility
 balance
  
  equipment_needed → optional, true or false
- 
+
+ DELETE /exercises/<id>
+Delete an exercise using its ID.
+Also remove any workout links connected to that exercise.
+
 ### Adding an Exercise to a Workout
 
 | Method | Route | Description |
