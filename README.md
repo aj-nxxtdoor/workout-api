@@ -111,9 +111,14 @@ Also remove any workout links connected to that exercise.
 
 ### Adding an Exercise to a Workout
 
-| Method | Route | Description |
-|---|---|---|
-| POST | `/workouts/<id>/exercises` | Attach an existing exercise to the workout. Body: `{ "exercise_id": int, "sets": int (optional), "reps": int (optional), "duration_seconds": int (optional) }`. Either `sets`/`reps` or `duration_seconds` must be supplied. Returns the updated workout with its full list of exercises. |
+POST /workouts/<id>/exercises
+
+Add an existing exercise to a workout.
+Need:
+exercise_id
+sets → optional
+reps → optional
+duration_seconds → optional
 
 ## Validations
 
