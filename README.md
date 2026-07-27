@@ -42,13 +42,13 @@ data on the join table).
 5. Seed the database with example data:
    ```bash
    python3 -m server.seed
-   ```
+   
 
 ## Running the App
 
 ```bash
 flask run --port 5555
-```
+
 
 The API will be available at `http://127.0.0.1:5555`.
 
