@@ -91,6 +91,17 @@ Get a list of all exercises.
 GET /exercises/<id>
 
 Get one exercise using its ID.
+ 
+ POST /exercises
+
+Create a new exercise.
+Needs:
+name
+category
+cardio
+strength
+flexibility
+balance
 
 ### Adding an Exercise to a Workout
 
