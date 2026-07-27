@@ -102,3 +102,11 @@ server/ - the actual Flask app
   config.py     -> db config
   extensions.py -> db/migrate setup
   models.py     -> Workout, Exercise, 
+  WorkoutExercise + validations
+  schemas.py    -> marshmallow schemas + validations
+  seed.py       -> fills the db with sample data
+
+migrations/  -> flask-migrate files, don't touch by hand
+tests/       -> pytest tests
+Pipfile      -> dependencies
+README.md    -> this file
