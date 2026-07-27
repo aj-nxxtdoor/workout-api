@@ -56,7 +56,7 @@ The API will be available at `http://127.0.0.1:5555`.
 
 ```bash
 python3 -m pytest tests/
-```
+
 
 ## Endpoints
 
